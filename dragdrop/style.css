@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.buttonContaier {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.citiesContainer {
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px solid lightgray;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+li {
+  padding: 10px;
+}
+
+#cityInput {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0.5px solid lightgray;
+  padding: 10px;
+}
+
+#cityInput:focus {
+  outline: none;
+  border: 1px solid gray;
+}
+
+#finish {
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  border: 0.5px solid gray;
+  font-weight: bold;
+}
+
+/* button:focus {
+  border: 1px solid gray;
+  background-color: gray;
+  color: white;
+} */
+
+#finish:hover {
+  background-color: white;
+}
+
+.page2container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.right {
+  width: 100%;
+  min-height: 400px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.cityContainer {
+  padding: 10px;
+  margin: 10px;
+  width: 85%;
+  max-width: 400px;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 7px;
+}
+
+
+.dragStart {
+    background-color: lightgreen;
+    color: white;
+}
+
+.rightDragStart {
+    background-color: rgb(218, 106, 106);
+}
